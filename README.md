@@ -47,9 +47,24 @@ Gerekli hedef: iOS 16+
 Simülatör değil gerçek cihazda çalıştıracaksanız, APIConfig.swift içinde şu kısmı düzenleyin:
 ```
 // Gerçek cihaz için:
-//Kendi bilgisayarınızın IP adresini yazın
+//Kendi bilgisayarınızın IP adresini bulmak için:
+// ipconfig getifaddr en0 
 return "http://192.168.x.x:3000" // <- burayı değiştirmeniz gerekebilir
 ```
+
+## 📸 Screenshots
+<img width="361" alt="Ekran Resmi 2025-04-03 20 22 53" src="https://github.com/user-attachments/assets/02201313-f863-479e-bfb6-9d82295bace0" />
+<img width="372" alt="Ekran Resmi 2025-05-14 22 16 09" src="https://github.com/user-attachments/assets/a8be6ed5-aebb-4ce5-bb43-25c98ef21982" />
+<img width="370" alt="Ekran Resmi 2025-05-14 22 15 45" src="https://github.com/user-attachments/assets/59265a33-4362-4c04-938a-0000a5aa97c6" />
+<img width="386" alt="Ekran Resmi 2025-05-14 22 15 39" src="https://github.com/user-attachments/assets/cee87280-3a58-4c3e-aac9-33e554820688" />
+<img width="370" alt="Ekran Resmi 2025-05-14 22 15 32" src="https://github.com/user-attachments/assets/178a637f-50a9-44e9-bc64-db338ccbf496" />
+<img width="375" alt="Ekran Resmi 2025-05-14 22 15 24"![ScreenRecording_05-14-2025 22-18-48_1](https://github.com/user-attachments/assets/12baa746-d135-4282-82bd-fd76799f8df1)
+ src="https://github.com/user-attachments/assets/9e78a647-0643-4df1-a716-19ca748b769e" />
+<img width="378" alt="Ekran Resmi 2025-05-14 22 15 13" src="https://github.com/user-attachments/assets/ca8d2766-7283-48c0-8a81-cb2cf4a7c706" />
+![ScreenRecording_05-14-2025 23](https://github.com/user-attachments/assets/1a550c93-7b85-4f10-a08b-e43290b6bb4c)
+![IMG_7690](https://github.com/user-attachments/assets/cf59ad8d-6f56-48a1-80a9-eac92c13607f)
+
+
 
 ## 🧪 Test Süreci (Postman + Manuel)
 
@@ -58,7 +73,8 @@ return "http://192.168.x.x:3000" // <- burayı değiştirmeniz gerekebilir
 ✅ Yetkisiz kullanıcıların erişememesi test edildi.
 ✅ Manuel testlerle kullanıcı rolleri kontrol edildi:
 admin → Admin panel erişimi + tüm işlemler
-user → Sadece yetkili menülere erişim
+user → Sadece yetkili menülere erişim.
+
 📦 Refresh Token süresi test edildi, oturum süresi dolunca otomatik yenileme çalıştı.
 
 ## 📸 Barkod Okuyucu Özelliği
@@ -89,10 +105,23 @@ Sadece admin kullanıcılar için:
 | UserDefaults   | Lokalde veri saklama   |
 | MVVM + Service | Temiz mimari yapısı    |
 
+## 🔧 Gereksinimler
+
+- Xcode 14 veya üzeri
+- Node.js 18+
+- Swift 5.9
+- Gerçek cihaz testleri için aynı Wi-Fi ağına bağlı iPhone
+- Postman (API testleri için)
+
+## 🔮 Geliştirme Önerileri
+
+- Barkod verilerinin bulut tabanlı saklanması
+- Menü yetkilerinin daha görsel bir şekilde yönetilmesi
+- Offline çalışma desteği
 
 ## 👩🏻‍💻 Developer
 
 **Helin Güler**  
 - [LinkedIn Profilim](https://www.linkedin.com/in/helin-guler)  
 - [GitHub Profilim](https://github.com/helinguler)
-- [Portfolio]([https://github.com/helinguler](https://helinguler.github.io))
+- [Portfolio](https://helinguler.github.io)
