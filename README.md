@@ -56,7 +56,6 @@ return "http://192.168.x.x:3000" // <- burayı değiştirmeniz gerekebilir
 <img width="250" alt="Ekran Resmi 2025-05-14 22 15 13" src="https://github.com/user-attachments/assets/ca8d2766-7283-48c0-8a81-cb2cf4a7c706" />
 <img width="250" alt="Ekran Resmi 2025-05-14 22 16 09" src="https://github.com/user-attachments/assets/a8be6ed5-aebb-4ce5-bb43-25c98ef21982" />
 <img width="250" alt="Ekran Resmi 2025-05-14 22 15 45" src="https://github.com/user-attachments/assets/59265a33-4362-4c04-938a-0000a5aa97c6" />
-<img width="250" alt="Ekran Resmi 2025-05-14 22 15 39" src="https://github.com/user-attachments/assets/cee87280-3a58-4c3e-aac9-33e554820688" />
 <img width="250" alt="Ekran Resmi 2025-05-14 22 15 32" src="https://github.com/user-attachments/assets/178a637f-50a9-44e9-bc64-db338ccbf496" />
 <img width="250" alt="IMG_7690" src="https://github.com/user-attachments/assets/cf59ad8d-6f56-48a1-80a9-eac92c13607f" />
 <img width="250" alt="ScreenRecording_05-14-2025 23" src="https://github.com/user-attachments/assets/1a550c93-7b85-4f10-a08b-e43290b6bb4c" />
