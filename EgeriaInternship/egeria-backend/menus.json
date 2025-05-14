@@ -1,0 +1,124 @@
+{
+  "menus": [
+    {
+      "id": "uretim",
+      "title": "Üretim",
+      "children": [
+        {
+          "id": "uretim-planlama",
+          "title": "Üretim Planlama",
+          "children": [
+            {
+              "id": "gunluk-plan",
+              "title": "Günlük Üretim Planı"
+            },
+            {
+              "id": "aylik-plan",
+              "title": "Aylık Üretim Planı"
+            }
+          ]
+        },
+        {
+          "id": "makine-durumlari",
+          "title": "Makine Durumları",
+          "children": [
+            {
+              "id": "calisan-makine",
+              "title": "Çalışan Makineler"
+            },
+            {
+              "id": "bakim-makine",
+              "title": "Bakım Bekleyen Makineler"
+            }
+          ]
+        },
+        {
+          "id": "deneme",
+          "title": "Denemeee"
+        }
+      ]
+    },
+    {
+      "id": "sevkiyat",
+      "title": "Sevkiyat",
+      "children": [
+        {
+          "id": "arac-takibi",
+          "title": "Araç Takibi",
+          "children": [
+            {
+              "id": "aktif-sevkiyat",
+              "title": "Aktif Sevkiyatlar"
+            },
+            {
+              "id": "teslim-siparis",
+              "title": "Teslim Edilen Siparişler"
+            }
+          ]
+        },
+        {
+          "id": "yukleme-plani",
+          "title": "Yükleme Planı"
+        }
+      ]
+    },
+    {
+      "id": "kalite-kontrol",
+      "title": "Kalite Kontrol",
+      "children": [
+        {
+          "id": "numune-test",
+          "title": "Numune Testleri"
+        },
+        {
+          "id": "kalite-rapor",
+          "title": "Kalite Raporları"
+        }
+      ]
+    },
+    {
+      "id": "depo",
+      "title": "Depo Yönetimi",
+      "children": [
+        {
+          "id": "urun-stok",
+          "title": "Ürün Stoğu"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Helin",
+      "password": "12345",
+      "role": "admin",
+      "permissions": [
+        "gunluk-plan",
+        "aylik-plan",
+        "calisan-makine",
+        "bakim-makine",
+        "aktif-sevkiyat",
+        "teslim-siparis",
+        "yukleme-plani",
+        "numune-test",
+        "kalite-rapor",
+        "urun-stok",
+        "deneme-uretim",
+        "deneme"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Ali",
+      "password": "5678",
+      "role": "user",
+      "permissions": [
+        "aylik-plan",
+        "bakim-makine",
+        "teslim-siparis",
+        "aylik-kalite"
+      ]
+    }
+  ]
+}
