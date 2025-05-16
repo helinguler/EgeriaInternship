@@ -12,7 +12,7 @@ import Foundation
 
 struct AdminService {
     static var baseURL: String {
-        UserDefaults.standard.string(forKey: "baseURL") ?? "http://localhost:3000"
+        APIConfig.baseURL
     }
     
     // MARK: Kullanıcı işlemleri

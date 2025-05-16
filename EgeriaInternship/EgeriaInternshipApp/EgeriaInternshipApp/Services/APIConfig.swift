@@ -10,7 +10,7 @@ import Foundation
 struct APIConfig {
     static var baseURL: String {
         // Kullanıcının ayarladığı adres varsa onu kullan
-        if let savedURL = UserDefaults.standard.string(forKey: "serverURL") {
+        if let savedURL = UserDefaults.standard.string(forKey: "baseURL") {
             return savedURL
         }
 
